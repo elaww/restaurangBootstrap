@@ -1,0 +1,30 @@
+h1{
+    font-family: 'Herr Von Muellerhoff', serif;
+    font-stretch: ultra-expanded;
+    letter-spacing: 2px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-size: 60px;
+    text-shadow: 6px 6px 6px #aaa;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Georgia', serif;
+    font-stretch: ultra-expanded;
+    letter-spacing: 1.2px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 28px;
+    text-shadow: 3px 3px 3px #aaa;
+    text-align: center;
+}
+
+
+p{
+    margin-top: 10px;
+    font-size: 16px;
+    letter-spacing: 1.8px;
+    font-family: 'Georgia', serif;
+    text-align: center;
+}

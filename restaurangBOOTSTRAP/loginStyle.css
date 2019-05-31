@@ -1,0 +1,128 @@
+html,
+ 
+nav{
+    margin-bottom: 250px;
+    align-items: stretch;
+}
+
+body {
+  height: 100%;
+  background: white;
+}
+
+.text-center {
+  display: grid;
+}
+
+.form-signin {
+  width: 380px;
+  max-width: 30%;
+  padding: 25px 15px 20px;
+  margin: 0 auto;
+  margin-top: -15%;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Frosted glass / Blurred background and inner box shadow */
+.form-signin::before {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: -1;
+  top: -30px;
+  left: -30px;
+  right: -30px;
+  bottom: -30px;
+  border-radius: 5px;
+  background: url(login.jpg) fixed;
+  filter: blur(10px);
+}
+
+/* Gradient and inner box shadow */
+.form-signin::after {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: -1;
+  top: -70px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 3px;
+  background: -webkit-linear-gradient(top, rgba(255,255,255,0.75) 0, rgba(255,255,255,0.75) 170px, rgba(48, 45, 53, 0.8) 170px, rgba(48, 45, 53, 0.8) 100%);
+}
+
+
+
+/* Everything below this point is not related to the background effect */
+.form-signin label[for=inputEmail], .form-signin label[for=inputPassword] {
+  position: absolute;
+  bottom: -26px;
+  left: 3px;
+  font-size: 11px;
+  font-weight: 300;
+  color: rgba(255,255,255,0.65);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.form-signin--password-wrapper, .form-signin--email-wrapper {
+  position: relative;
+}
+
+.form-signin input[type="email"], .form-signin input[type="password"] {
+  color: rgba(255,255,255,0.95);
+  height: 40px;
+  padding: 0 0 0 3px;
+  margin: 0 0 30px;
+  font-size: 14px;
+  border: none;
+  border-bottom: 1px solid rgba(255,255,255,0.65);
+  background: transparent;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"]:focus, .form-signin input[type="email"]:focus {
+  border-bottom: 1px solid white;
+}
+
+.form-signin input[type="email"]:focus + label, .form-signin input[type="password"]:focus + label {
+  color: rgba(255,255,255,1);
+} 
+
+.form-check {
+  color: rgba(255,255,255,0.65);
+  font-size: 11px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: left;
+  margin-top: 50px;
+  margin-bottom: 15px;
+  margin-left: 3px;
+}
+
+.form-check-label {
+  margin-top: 2px;
+}
+
+.form-check-input:checked + label {
+  color: rgba(255,255,255,1);
+}
+
+.form-signin button {
+  background: #424d70;
+  border: none;
+}
+
+.form-signin button:hover {
+  background: #5a6a9e; 
+  border: none;
+}
+
+.sn {
+  margin-top: -.8rem;
+}
